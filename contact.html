@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - MiREVERIE</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            background-color: bisque;
+        }
+        header{
+            background-color: chocolate;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        nav a{
+            margin-left: 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        input, textarea{
+            background-color: white;
+            padding: 60px;
+            text-align: center;
+            max-width: 600px;
+            margin: 50px auto;
+            border-radius: 8px;
+            margin: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><h2>MiREVERIE</h2></div>
+        <nav>
+            <a href="MiREVERIE.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main class="header-section">
+        <h1>Contact Us</h1>
+        <p>Have a question or feedback? We'd love to hear from you!</p>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required><br><br>
+            <input type="email" name="email" placeholder="Your Email" required><br><br>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+</body>

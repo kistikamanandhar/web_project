@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #container{
+                width: 600px;
+                height: 400px;
+                border: 2px solid black;
+                display: grid;
+                grid-template-rows:100px 1fr 100px;
+            }
+            #one{
+                background-color: black;
+            }
+            #two{
+                
+                display:grid;
+                grid-template-columns: 50px auto 50px;
+            }
+            #three{
+                background-color: blue;
+            }
+            #two1{
+                background-color: red;
+            }
+            #two2{
+                
+                display: grid;
+                grid-template-rows: auto auto;
+                border: 1px solid black;
+            }
+            #two3{
+                background-color: green;
+            }
+            #a1{
+                background-color: yellow;
+                border: 1px solid red;
+                display: grid;
+                grid-template-columns: auto auto auto;
+                text-align: center;
+            }
+            #aa{
+                border:solid;
+            }
+            #ab{
+                border: solid;
+            }
+            #ac{
+                border: solid;
+            }
+            #b2{
+                border: solid;
+                display: grid;
+                grid-template-columns: 178px auto;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="one"></div>
+            <div id="two">
+                <div id="two1"></div>
+                <div id="two2">
+                    <div id="a1">
+                        <div id="aa">A</div>
+                        <div id="ab">B</div>
+                        <div id="ac">C</div>
+                    </div>
+                    <div id="b2">
+                        <div id="ba">D</div>
+                        <div id="bb">Apple</div>
+                    </div>
+                </div>
+            </div>
+            <div id="two3"></div>
+            </div>
+            <div id="three"></div>
+        </div>
+                
+    </body>
+            
+</html>
