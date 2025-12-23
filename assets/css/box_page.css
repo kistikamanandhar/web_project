@@ -1,0 +1,52 @@
+ #container{
+                width: 600px;
+                height: 400px;
+                border: 2px solid black;
+                display: grid;
+                grid-template-rows:100px 1fr 100px;
+            }
+            #one{
+                background-color: black;
+            }
+            #two{
+                
+                display:grid;
+                grid-template-columns: 50px auto 50px;
+            }
+            #three{
+                background-color: blue;
+            }
+            #two1{
+                background-color: red;
+            }
+            #two2{
+                
+                display: grid;
+                grid-template-rows: auto auto;
+                border: 1px solid black;
+            }
+            #two3{
+                background-color: green;
+            }
+            #a1{
+                background-color: yellow;
+                border: 1px solid red;
+                display: grid;
+                grid-template-columns: auto auto auto;
+                text-align: center;
+            }
+            #aa{
+                border:solid;
+            }
+            #ab{
+                border: solid;
+            }
+            #ac{
+                border: solid;
+            }
+            #b2{
+                border: solid;
+                display: grid;
+                grid-template-columns: 178px auto;
+                text-align: center;
+            }
